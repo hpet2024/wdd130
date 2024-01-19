@@ -7,10 +7,10 @@ main img {
 }
 
 aside {
-    width: 20rem;
-    margin: 1rem;
+    width: 20 rem;
+    margin: 1 rem;
     border: 1px solid rgba(0,0,0,0.2);
-    padding: 1rem;
+    padding: 1 rem;
     background-color: #eee;
     color: #333;
     text-align: center;
