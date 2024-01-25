@@ -20,7 +20,7 @@ main {
 }
 
 main img {
-    float: relative;
+    float: absolute;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
