@@ -40,11 +40,11 @@ aside {
     padding: 1rem;
     background-color: #eee;
     color: steelblue;
-    text-align: center;
+    text-align: left;
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 47px;
     left: 150px;
 }
