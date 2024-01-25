@@ -20,7 +20,7 @@ main {
 }
 
 main img {
-    float: absolute;
+    float: right;
     width: 150px;
     height: auto;
     border: 1px solid steelblue;
@@ -44,7 +44,7 @@ aside {
 }
 
 aside h2 {
-    position: left;
+    position: center;
     top: 47px;
     left: 150px;
 }
