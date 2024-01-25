@@ -33,6 +33,7 @@ h1 {
 }
 
 aside {
+    position: relative;
     width: 20rem;
     margin: 1rem;
     border: 1px solid rgba(0,0,0,0.2);
@@ -43,7 +44,7 @@ aside {
 }
 
 aside h2 {
-    position: relative;
+    position: absolute;
     top: 47px;
     left: 150px;
 }
