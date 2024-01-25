@@ -50,12 +50,6 @@ p {
     padding: 0;
 }
 
-footer {
-    margin-top: 15px;
-    border-top: 1px solid #000;
-    text-align: center;
-}
-
 /* Class Selectors */
 
 .box {
@@ -64,4 +58,10 @@ footer {
     padding: 1rem;
     background-color: #ddd;
     color: #743269;
+}
+
+footer {
+    margin-top: 15px;
+    border-top: 1px solid #000;
+    text-align: center;
 }
