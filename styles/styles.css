@@ -44,7 +44,7 @@ aside {
 }
 
 aside h2 {
-    position: center;
+    position: relative;
     top: 47px;
     left: 150px;
 }
