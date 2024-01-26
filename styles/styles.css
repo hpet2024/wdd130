@@ -26,6 +26,7 @@ main img {
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
+    margin: 0 0 1rem 1rem;
 }
 
 h1 {
@@ -50,7 +51,7 @@ aside h2 {
 }
 
 aside img {
-    width: 200px;
+    width: 280px;
     height: auto;
 }
 
