@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Grape+Nuts&family=Outfit&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+:root {
+    --primary-color: #B8A9A9;
+    --secondary-color: #FFF4E9;
+    --tertiary-color: #72F7DE;
+    --accent1-color: #594236;
+    --accent2-color: #FFF235;
+
+    --heading-font: 'Grape Nuts', cursive;
+    --paragraph-font: 'Outfit', sans-serif;
+
+    --nav-background-color: #FFF4E9;
+    --nav-link-color: #594236;
+    --nav-hover-link-color: #B8A9A9;
+    --nav-hover-background-color: #72F7;
+}
+
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960px;
+    padding: 20px;
+}
+
+header img {
+    float: left;
+    padding-right: 1rem;
+    padding-bottom: 1rem;
+}
+
+nav {
+    display: block;
+    padding: 10px;
+}
+
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+}
+
+h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+header {
+    padding: 20px;
+    background-color: var(--primary-color);
+}
+
+.hero img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+}
+
+p {
+    padding: 25px;
+}
+
+nav {
+    background-color: var(--nav-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+
+nav a {
+    display: block;
+    color: var(--nav-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+
+nav a:link, nav a:visited {
+    color: var(--nav-link-color);
+}
+
+nav a:hover {
+    color: var(--nav-hover-link-color);
+    background-color: var(--nav-hover-background-color);
+}
+
