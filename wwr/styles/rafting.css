@@ -37,6 +37,16 @@ main {
     padding-left: 20px;
 	margin: 2rem auto;
 	font-family: outfit;
+    color: #594236;
+}
+    
+h1 {
+    position: absolute;
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: center;
+    text-decoration: underline;
+    text-size-adjust: auto;
 }
 
 .herodiv {
@@ -51,7 +61,20 @@ main {
 	object-fit: cover;
 }
 
-h1, h2, h3, h4, h5, h6 {
+article {
+    position: absolute;
+}
+
+article img {
+    float: right;
+    width: 80px;
+}
+
+.article p {
+    float: left;
+}
+
+h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
@@ -87,13 +110,15 @@ nav a:hover {
 }
 
 .box {
-    height: 25%;
+    position:absolute;
+    height: 15%;
     max-width: 90%;
     margin: 1rem;
     border: 1px solid rgba(0, 0, 0, .1);
     padding: 1rem;
     background-color: #B8A9A9;
     color: #594236;
+    opacity: 0.7;
 }
 
 .stats {
