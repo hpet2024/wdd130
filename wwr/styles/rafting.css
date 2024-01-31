@@ -23,8 +23,9 @@
 
 body {
     font-family: var(--paragraph-font);
-    max-width: 1000px;
+    width: 980px;
     padding: 20px;
+    margin: 0 auto;
 }
 
 header {
@@ -42,18 +43,25 @@ main {
     
 h1 {
     position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
     text-decoration: underline;
+    background-color: rgba(184, 169, 169, .7);
+    width: 20%;
 }
 
-.herodiv {
+#hero {
+    border: 2px solid #594236;
 	margin: 10px auto;
 	position: relative; 
 }
 
-.hero img {
+#hero img {
     display: block;
 	width: 100%;
 	height: auto;
@@ -62,11 +70,18 @@ h1 {
 
 article {
     position: absolute;
+    top: 60px;
+    width: 95%;
+    right: 0;
+    left: 0;
+    margin: 0 auto;
+    background-color: rgba(184, 169, 169, .6);
+    padding: 1rem;
 }
 
-article img {
+#hero article img {
     float: right;
-    width: 80px;
+    width: 90px;
 }
 
 .article p {
