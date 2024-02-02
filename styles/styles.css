@@ -78,7 +78,7 @@ p {
     background-color: #ddd;
     color: steelblue;
 }
-header .grid footer {
+header .grid {
     display: grid;
     max-width: 840px;
     margin: 0 auto;
@@ -94,5 +94,12 @@ header .grid footer {
 
 .grid {
     display: grid;
+    align-items: center;
+}
+
+footer {
+    display: grid;
+    max-width: 840px;
+    margin: 0 auto;
     align-items: center;
 }
