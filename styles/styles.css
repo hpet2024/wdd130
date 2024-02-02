@@ -80,9 +80,9 @@ p {
 }
 header .grid footer {
     display: grid;
-    align-items: center;
     max-width: 840px;
     margin: 0 auto;
+    align-items: center;
     /*margin-top: 15px;
     border-top: 1px solid #000;
     text-align: center;*/
