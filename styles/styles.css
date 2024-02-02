@@ -92,3 +92,7 @@ header .grid footer {
     padding-left: 2rem;
 }
 
+.grid {
+    display: grid;
+    align-items: center;
+}
