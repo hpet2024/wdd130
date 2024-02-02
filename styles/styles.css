@@ -22,6 +22,8 @@ nav a {
 }
 
 main {
+    display: grid;
+    align-items: center;
     grid-column: 2 / 3;
     margin: 1rem;
 }
@@ -78,7 +80,7 @@ p {
     background-color: #ddd;
     color: steelblue;
 }
-header .grid {
+header footer .grid {
     display: grid;
     max-width: 840px;
     margin: 0 auto;
