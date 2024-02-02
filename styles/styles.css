@@ -37,6 +37,7 @@ main img {
 
 h1 {
     color: steelblue;
+    border-bottom: 2px solid steelblue;
 }
 
 aside {
