@@ -98,8 +98,9 @@ header .grid {
 }
 
 footer {
-    display: grid;
+    display: flex;
     max-width: 840px;
     margin: 0 auto;
-    align-items: center;
+    justify-content: center;
+    border-top: 2px solid steelblue;
 }
