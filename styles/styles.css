@@ -78,7 +78,9 @@ p {
     background-color: #ddd;
     color: steelblue;
 }
-header footer {
+header .grid footer {
+    display: grid;
+    align-items: center;
     max-width: 840px;
     margin: 0 auto;
     /*margin-top: 15px;
@@ -88,10 +90,5 @@ header footer {
 
 .indent {
     padding-left: 2rem;
-}
-
-.grid {
-    display: grid;
-    align-items: center;
 }
 
