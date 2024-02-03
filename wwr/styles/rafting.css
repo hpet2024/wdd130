@@ -105,7 +105,6 @@ main h1 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
-    /*text-decoration: underline;*/
     background-color: rgba(184, 169, 169, .7);
     width: 30%;
 }
@@ -181,46 +180,30 @@ h3 {
 .grid {
     display: grid;
     grid-template-columns: 35% 30% 35%;
-    grid-template-rows: 2;
-    /*gap: 2rem;*/
+    grid-template-rows: 3;
+    gap: 2rem;
 }
 
 section .grid {
+    position: relative;
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1/4;
     align-items: center;
     justify-items: center;
     padding: 20px;
     background-color: var(--primary-color);
-    gap: 20px
 }
 
-/*section .history .grid {
-    margin: 1rem auto;
-    display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
-    align-items: center;
-    justify-items: center;
-    padding: 20px;
-    background-color: var(--primary-color);
-    gap: 20px
-}*/
-
-/*section .adventure .grid {
-    max-width: 1000px;
-    grid-template-columns: 1/4;
-}*/
-
-figure .icons img{
-    width: 100%;
+figure {
+    position: absolute;
+    width: 1000px;
     height: auto;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
+    display: flex;
+    grid-template-columns: 1/4;
     align-items: center;
-    justify-items: center;
+    justify-items: left;
     padding: 20px;
     background-color: var(--primary-color);
 }
@@ -248,4 +231,23 @@ figure .icons img{
 .icons {
     display: flex;
     justify-content: space-around;
+}
+
+figure img {
+    position: absolute;
+    width: 55%;
+    height: auto;
+}
+
+footer {
+    grid-template-columns: 40% 20% 20% 20%;
+}
+
+.sociallinks {
+    display: flex;
+    justify-content: space-around;
+}
+
+.sociallinks img {
+    width: 20px;
 }
