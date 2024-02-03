@@ -34,7 +34,8 @@ p {
 }
 
 header {
-    margin: 1rem auto;
+    margin: 0 auto;
+    width: 1000px;
     display: grid;
     grid-template-columns: 1fr 1fr 2fr;
     align-items: center;
@@ -88,9 +89,9 @@ nav a:hover {
 }
 
 main {
-	max-width: 1000px;
+    width: 1000px;
     padding-left: 20px;
-	margin: 2rem auto;
+	margin: 0 auto;
 	font-family: outfit;
     color: #594236;
 }
@@ -158,26 +159,37 @@ article {
     float: left;
 }
 
-h2, h3 {
+h2 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
     text-align: center;
     text-decoration: underline;
     text-size-adjust: auto;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+h3 {
+    font-family: var(--heading-font);
+    color: var(--accent1-color);
+    text-align: center;
+    text-decoration: underline;
+    text-size-adjust: auto;
+    font-weight: 700;
 }
 
 .grid {
     display: grid;
-    grid-template-columns: 40% 20% 40%;
+    grid-template-columns: 35% 30% 35%;
     grid-template-rows: 2;
-    gap: 2rem;
+    /*gap: 2rem;*/
 }
 
-section {
+section .grid {
     max-width: 1000px;
-    /*margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;*/
+    grid-template-columns: 1/4;
     align-items: center;
     justify-items: center;
     padding: 20px;
@@ -185,33 +197,32 @@ section {
     gap: 20px
 }
 
-section .history .grid {
+/*section .history .grid {
     margin: 1rem auto;
-    /*display: grid;
-    grid-template-columns: 2fr 1fr 2fr;*/
+    display: grid;
+    grid-template-columns: 2fr 1fr 2fr;
     align-items: center;
     justify-items: center;
     padding: 20px;
     background-color: var(--primary-color);
     gap: 20px
-}
+}*/
 
 /*section .adventure .grid {
     max-width: 1000px;
     grid-template-columns: 1/4;
 }*/
 
-.icons img{
-    width: 20%;
+figure .icons img{
+    width: 100%;
     height: auto;
-    /*margin: 1rem auto;
+    margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: repeat(5, 1fr);
     align-items: center;
     justify-items: center;
     padding: 20px;
     background-color: var(--primary-color);
-    gap: 20px*/
 }
 
 .box {
