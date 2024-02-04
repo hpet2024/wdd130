@@ -41,6 +41,7 @@ main img {
 h1 {
     color: steelblue;
     border-bottom: 2px solid steelblue;
+    margin-bottom: 1rem;
 }
 
 aside {
@@ -80,7 +81,7 @@ p {
     background-color: #ddd;
     color: steelblue;
 }
-header footer .grid {
+header, footer, .grid {
     display: grid;
     max-width: 840px;
     margin: 0 auto;
