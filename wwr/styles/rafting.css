@@ -166,6 +166,7 @@ h2 {
     text-size-adjust: auto;
     font-weight: 700;
     font-size: 2rem;
+    padding-bottom: 1rem;
 }
 
 h3 {
@@ -177,7 +178,7 @@ h3 {
     font-weight: 700;
 }
 
-.grid {
+.history {
     display: grid;
     grid-template-columns: 35% 30% 35%;
     grid-template-rows: 3;
@@ -196,16 +197,12 @@ section, .grid {
     background-color: var(--primary-color);
 }
 
-figure {
-    position: absolute;
-    width: 1000px;
-    height: auto;
-    margin: 0 auto;
+.adventure div {
     display: flex;
-    align-items: center;
-    justify-items: left;
-    padding: 20px;
-    background-color: var(--primary-color);
+}
+
+.adventure div img {
+    width: 90%;
 }
 
 .box {
@@ -227,23 +224,23 @@ figure {
     width: 30%;
 }
 
-.sociallinks {
+/*.sociallinks {
     display: flex;
     list-style: none;
     justify-content: space-around;
-}
+}*/
 
-.sociallinks li {
+/*.sociallinks li {
     flex: 1 1 1 1;
-}
+}*/
     
-.sociallinks a {
+/*.sociallinks a {
     display: block;
     color: var(--nav-link-color);
     font-weight: 700;
     text-decoration: none;
     padding: 1rem;
-}
+}*/
 
 .sociallinks img {
     width: 20px;
