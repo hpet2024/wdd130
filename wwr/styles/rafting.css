@@ -182,7 +182,6 @@ h3 {
     grid-template-columns: 35% 30% 35%;
     grid-template-rows: 3;
     justify-content: space-around;
-    /*gap: 2rem;*/
 }
 
 section, .grid {
@@ -203,7 +202,6 @@ figure {
     height: auto;
     margin: 0 auto;
     display: flex;
-    /*grid-template-columns: 1/4;*/
     align-items: center;
     justify-items: left;
     padding: 20px;
@@ -222,52 +220,30 @@ figure {
     opacity: 0.7;
 }
 
-/*.stats {
-	position: absolute;
-	top: 5px;
-	right: 1px;
-    font-size: .7rem;
-	opacity: 0.7;
-}*/
-
 .icons, .icons img {
     display: flex;
     justify-content: space-around;
     position: relative;
     width: 30%;
-    /*grid-column: 1/4;*/
 }
 
-/*footer {
-    /*position: relative;
-    max-width: 1000px;
-    margin: 0 auto;
-    display: flex;*/
-    /*align-items: center;
-    justify-items: center;
+.sociallinks {
+    display: flex;
+    list-style: none;
     justify-content: space-around;
-    padding: 20px;
-    background-color: var(--primary-color);
-}*/
+}
 
-/*footer {
-    display: grid;
-    grid-template-columns: 40% 20% 20% 20%;
-    margin: 0 auto;
-    width: 1000px;
-    display: grid;
-    grid-template-columns: 1fr 1fr 2fr;
-    align-items: center;
-    justify-items: center;
-    padding: 20px;
-    background-color: var(--primary-color);
-    gap: 20px
-}*/
-
-/*.sociallinks, .grid {
-    display: relative;
-    justify-content: space-around;
-}*/
+.sociallinks li {
+    flex: 1 1 1 1;
+}
+    
+.sociallinks a {
+    display: block;
+    color: var(--nav-link-color);
+    font-weight: 700;
+    text-decoration: none;
+    padding: 1rem;
+}
 
 .sociallinks img {
     width: 20px;
