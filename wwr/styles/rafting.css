@@ -217,31 +217,21 @@ section, .grid {
     opacity: 0.7;
 }
 
-.icons, .icons img {
-    display: flex;
-    justify-content: space-around;
-    position: relative;
-    width: 30%;
+footer {
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+    align-items: center;
+    justify-items: center;
+    gap: 2rem;
 }
 
-/*.sociallinks {
+.sociallinks {
     display: flex;
     list-style: none;
-    justify-content: space-around;
-}*/
-
-/*.sociallinks li {
-    flex: 1 1 1 1;
-}*/
-    
-/*.sociallinks a {
-    display: block;
-    color: var(--nav-link-color);
-    font-weight: 700;
-    text-decoration: none;
-    padding: 1rem;
-}*/
+}
 
 .sociallinks img {
-    width: 20px;
+    width: 18%;
+    height: auto;
 }
