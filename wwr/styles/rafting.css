@@ -215,14 +215,20 @@ section, .grid {
     opacity: 0.7;
 }
 
+.container {
+    position: relative;
+    text-align: center;
+}
+
 button {
-    display: flex;
+    display: block;
     background-color: #594236;
     color: #FFF4E9;
     border: none;
     border-radius: .5rem;
     font-size: 2rem;
-    width: 200px;
+    width: 220px;
+    height: 75px;
 }
 
 button :hover {
