@@ -27,6 +27,10 @@ h1 {
     text-align: center;
 }
 
+p{
+    font-size: 1.1rem;
+}
+
 .grid {
     display: grid;
     margin: 0 auto;

@@ -26,26 +26,29 @@
                 </fieldset>
                 <fieldset>
                     <legend>Your Request</legend>
-                    <div class="form-item">
-                    <form>
+                    <p>Type of Request:</p>
+                    <div class="column1">
                         <input type="radio" name="geninq" id="general_inquiry" value="General Inquiry">
                         <label for="geninq">General Inquiry</label>
                         <input type="radio" name="resvques" id="reservation_question" value="Reservation Question">
                         <label for="resvques">Reservation Question</label>
                         <input type="radio" name="websug" id="website_suggestion" value="Website Suggestion">
-                        <label for="websug">Website Suggestion</label>
-                    </form>
+                        <label for="websug">Website Suggestion</label><br>
                     </div>
                     <div class="form-item">
                     <label for="feedback">Please enter details of your request:</label>
                     <textarea id="feedback" name="feedback" rows="4"></textarea>
                     </div>
+                    <div class="form-item column1">
+                        <label for="pet">Would you like to subscribe to our newsletter?</label>
+                        <label><input type="checkbox" id="pet" name="q5" value="True"> Yes</label>
+                        </div>
                 </fieldset>
                 <button type="submit">Submit Request</button>
             </form>            
         </main>
             <footer>
-            <p>©️2024 | HTML Form - User Poll Activity |Heather Peters</p>
+            <p>©️2024 | Up A Creek | Contact Form |Heather Peters</p>
         </footer>
     </body>
 </html>
