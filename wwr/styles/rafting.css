@@ -216,13 +216,18 @@ section, .grid {
 }
 
 button {
-    margin: 1rem;
+    display: flex;
     background-color: #594236;
     color: #FFF4E9;
     border: none;
     border-radius: .5rem;
-    padding: .75rem;
-    font-size: 1.2rem;
+    font-size: 2rem;
+    width: 200px;
+}
+
+button :hover {
+    background-color: #B8A9A9;
+    color:  #B8A9A9;
 }
 
 footer {
