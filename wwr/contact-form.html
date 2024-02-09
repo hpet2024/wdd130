@@ -26,21 +26,14 @@
                 </fieldset>
                 <fieldset>
                     <legend>Your Request</legend>
-                    <!--<div class="form-item column1">
-                    <label for="browser">What is your favorite browser?</label>
-                    <select id="browser" name="browser">
-                        <option value="chrome">Chrome</option>
-                        <option value="firefox">Firefox</option>
-                        <option value="safari">Safari</option>
-                        <option value="edge">Edge</option>
-                        <option value="brave">Brave</option>
-                        <option value="other">Other</option>
-                    </select>
-                    </div>
-                    <div class="form-item column1">
-                    <label for="pet">Do you have a pet?</label>
-                    <label><input type="checkbox" id="pet" name="q5" value="True"> Yes</label>
-                    </div>-->
+                    <form>
+                        <input type="radio" name="geninq" id="general_inquiry" value="General Inquiry">
+                        <label for="geninq">General Inquiry</label><br>
+                        <input type="radio" name="resvques" id="reservation_question" value="Reservation Question">
+                        <label for="resvques">Reservation Question</label><br>
+                        <input type="radio" name="websug" id="website_suggestion" value="Website Suggestion">
+                        <label for="websug">Website Suggestion</label><br>
+                    </form>
                     <div class="form-item">
                     <label for="feedback">Please enter details of your request:</label>
                     <textarea id="feedback" name="feedback" rows="4"></textarea>
