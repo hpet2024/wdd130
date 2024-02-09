@@ -67,10 +67,6 @@ nav {
     justify-content: space-around;
 }
 
-/*.navigation li {
-    flex: 1 1 1 1;
-}*/
-
 nav a {
     display: block;
     color: var(--nav-link-color);
@@ -169,6 +165,9 @@ h2 {
     padding-bottom: 1rem;
 }
 
+iframe {
+    margin-top: 1rem;
+}
 h3 {
     font-family: var(--heading-font);
     color: var(--accent1-color);
