@@ -1,0 +1,116 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Roboto:wght@500&display=swap');
+
+* {
+	margin: 0;
+	padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1em;
+    padding: 0.5em;
+    margin: 0;
+    color: #594236;
+    background: #FFF4E9;
+}
+
+header {
+    margin: 0 auto;
+    width: 650px;
+}
+
+h1 {
+    margin: 1rem;
+    color:  #594236;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.grid {
+    display: grid;
+    margin: 0 auto;
+}
+
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba (0, 0, 0, 0.1);
+    border-radius: 0.5rem;
+    background-color:  #FFF4E9;
+    display: grid;
+}
+.form-item {
+    display: grid;
+    align-items: center;
+}
+
+.column1 {
+    grid-template-columns: 3fr 1fr;
+    margin: 1rem 0;
+}
+
+.column2 {
+    grid-template-columns: 1fr 2fr;
+    margin: 0.5rem 0;
+}
+
+fieldset {
+    display: grid;
+    grid-gap: .5rem;
+    margin: .5rem;
+    padding: .5rem;
+    border: 1px solid rgba (0, 0, 0, 0.1);
+}
+
+legend {
+    padding: 1rem;
+    color: #594236;
+    font-size: 1.3em;
+}
+
+label {
+    text-align: right;
+    padding-right: 0.5rem;
+    font-size: 1.1rem;
+}
+
+label, textarea {
+    text-align: left;
+}
+
+input, select, textarea {
+    padding: .5rem;
+    font-size: 1rem;
+}
+
+input [type="checkbox"] {
+    width: 25px;
+    height: 25px;  
+    vertical-align: bottom;  
+}
+
+button {
+    margin: 1rem;
+    background-color: #594236;
+    color: #FFF4E9;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+
+button :hover {
+    background-color:  #72F7;
+    color:  #B8A9A9;
+}
+
+footer {
+    margin: 0 auto;
+    width: 650px;
+    text-align: center;
+    font-size: 0.8em;
+    color: #594236;
+    border-top: 1px solid #594236;
+}
