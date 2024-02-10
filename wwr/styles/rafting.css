@@ -220,16 +220,16 @@ section, .grid {
     text-align: center;
 }
 
-button {
-    display: block;
+/*#button {
+    display: flex;
     background-color: #594236;
     color: #FFF4E9;
     border: none;
     border-radius: .5rem;
     font-size: 2rem;
-    width: 220px;
+    width: 80%;
     height: 75px;
-}
+}*/
 
 button :hover {
     background-color: #B8A9A9;
