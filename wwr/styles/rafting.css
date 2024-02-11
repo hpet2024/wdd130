@@ -37,6 +37,22 @@ body {
     box-sizing: border-box;
 }
 
+:root {
+    --primary-color: #B8A9A9;
+    --secondary-color: #FFF4E9;
+    --tertiary-color: #72F7DE;
+    --accent1-color: #594236;
+    --accent2-color: #FFF235;
+
+    --heading-font: 'Grape Nuts', cursive;
+    --paragraph-font: 'Outfit', sans-serif;
+
+    --nav-background-color: #FFF4E9;
+    --nav-link-color: #594236;
+    --nav-hover-link-color: #B8A9A9;
+    --nav-hover-background-color: #fff235;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     font-size: 1em;
