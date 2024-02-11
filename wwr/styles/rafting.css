@@ -220,15 +220,16 @@ section, .grid {
     text-align: center;
 }
 
-button {
+.button {
+    display: block;
     background-color: #594236;
     color:#FFF235;
-    width: 100%;
     border: none;
-    border-radius: .5rem;
+    border-radius: 1rem;
     font-size: 2rem;
-    width: 100%;
+    width: 90%;
     height: 75px;
+    text-align:  center;
 }
 
 button :hover {
