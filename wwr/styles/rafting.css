@@ -358,6 +358,8 @@ section, .grid {
 }
 
 .button {
+    padding: 0;
+    margin: 0 auto;
     display: block;
     background-color: #594236;
     color:#FFF235;
@@ -365,12 +367,13 @@ section, .grid {
     border-radius: 1rem;
     font-size: 2rem;
     width: 90%;
-    height: 75px;
     text-align:  center;
 }
 
 button :hover {
-    background-color: #B8A9A9;
+    padding: 0;
+    margin: 0 auto;
+    background-color: #594236;
     color:  #B8A9A9;
 }
 
