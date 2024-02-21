@@ -197,7 +197,7 @@ section, .grid {
 }
 
 .adventure div {
-    display: flex;
+    display: grid;
 }
 
 .adventure div img {
