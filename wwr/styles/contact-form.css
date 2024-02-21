@@ -123,8 +123,8 @@ table, td {
 }
 
 thead, tfoot {
-    background-color: #333;
-    color: #fff;
+    background-color:#B8A9A9;
+    color: #594236;
 }
 
 th, td {
@@ -132,7 +132,7 @@ th, td {
 }
 
 caption {
-    font-weight: 700;
+    font-weight: 900;
     font-size: large;
     color:#594236;
     font-variant: small-caps;
